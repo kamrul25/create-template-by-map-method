@@ -13,6 +13,7 @@ const getCountryHTML = country =>{
         <div class="country">
             <h2>${country.name.common}</h2>
             <img src="${country.flags.png}">
+            <h2>${country.continents[0]}</h2>
         </div>
     `
 }
